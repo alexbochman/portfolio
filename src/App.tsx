@@ -1,8 +1,8 @@
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Landing from "./components/Landing";
-import Projects from "./components/Projects";
+import About from "./sections/About/About";
+import Contact from "./sections/Contact/Contact";
+import Landing from "./sections/Landing/Landing";
+import Projects from "./sections/Projects/Projects";
 
 function App() {
     return (
