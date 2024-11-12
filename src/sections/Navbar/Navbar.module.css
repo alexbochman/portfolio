@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+
+    position: sticky; /* This is used when navbar is visible */
+    top: 0; /* Stick to the top of the viewport */
+    width: 100%;
+    z-index: 1000; /* Make sure it appears above other elements */
+    transition: transform 0.3s ease-in-out;
+}
+
+.hidden {
+    position: fixed; /* Keep the navbar hidden off-screen until it is needed */
+    transform: translateY(-100%);
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.active {
+    border-bottom: 2px solid #007bff;
+}
