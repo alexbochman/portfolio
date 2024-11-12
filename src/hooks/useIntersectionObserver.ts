@@ -18,7 +18,7 @@ const useIntersectionObserver = (
                     }
                 });
             },
-            { threshold: 0.7 } // Trigger when 60% of the section is in view
+            { threshold: 0.8 } // Trigger when 60% of the section is in view
         );
 
         sections.forEach((section) => {

@@ -14,7 +14,7 @@ function App() {
     useIntersectionObserver(setActiveSection, setNavbarVisible);
 
     return (
-        <div id="sections">
+        <div>
             <section id="landing">
                 <Landing />
             </section>

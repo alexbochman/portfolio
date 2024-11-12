@@ -7,7 +7,7 @@ interface NavbarProps {
 
 const Navbar = ({ activeSection, isVisible }: NavbarProps) => {
     return (
-        <nav className={`${styles.nav} ${!isVisible ? styles.hidden : ''}`}>
+        <nav className={`${styles.nav} ${!isVisible ? styles.hidden : ""}`}>
             <a href="#landing" className={activeSection === "landing" ? styles.active : ""}>
                 Home
             </a>

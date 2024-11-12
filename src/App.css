@@ -1,10 +1,20 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the box model */
+}
+
 #root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
+    max-width: 100vw; /* Allow the content to expand to the full viewport width */
+    margin: 0; /* Remove centering margin */
+    padding: 0; /* Remove root-level padding to avoid unwanted spacing */
     text-align: center;
 }
 
 .landing {
-    margin: 1000px;
+    height: 100vh; /* Take up the full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Remove the excessive margin */
 }
